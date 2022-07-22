@@ -5,7 +5,7 @@ namespace MindBox_UnitTest
     {
 
         /// <summary>
-        /// Создание треугольника с некорректными сторонами
+        /// РЎРѕР·РґР°РЅРёРµ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° СЃ РЅРµРєРѕСЂСЂРµРєС‚РЅС‹РјРё СЃС‚РѕСЂРѕРЅР°РјРё
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
@@ -17,7 +17,7 @@ namespace MindBox_UnitTest
         }
 
         /// <summary>
-        /// Тест поиска площади треугольника
+        /// РўРµСЃС‚ РїРѕРёСЃРєР° РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [TestMethod]
         public void Triangle_square()
@@ -32,7 +32,7 @@ namespace MindBox_UnitTest
         }
 
         /// <summary>
-        /// Тест поиска периметра треугольника
+        /// РўРµСЃС‚ РїРѕРёСЃРєР° РїРµСЂРёРјРµС‚СЂР° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [TestMethod]
         public void Triangle_perimeter()
@@ -47,7 +47,7 @@ namespace MindBox_UnitTest
         }
 
         /// <summary>
-        /// Является ли треугольник прямоугольным (да)
+        /// РЇРІР»СЏРµС‚СЃСЏ Р»Рё С‚СЂРµСѓРіРѕР»СЊРЅРёРє РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Рј (РґР°)
         /// </summary>
         [TestMethod]
         public void Triangle_is_right1()
@@ -61,7 +61,7 @@ namespace MindBox_UnitTest
         }
 
         /// <summary>
-        /// Является ли тругеальник примогульным (нет)
+        /// РЇРІР»СЏРµС‚СЃСЏ Р»Рё С‚СЂСѓРіРµР°Р»СЊРЅРёРє РїСЂРёРјРѕРіСѓР»СЊРЅС‹Рј (РЅРµС‚)
         /// </summary>
         [TestMethod]
         public void Triangle_is_right_0()
