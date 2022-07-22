@@ -4,7 +4,7 @@ namespace MindBox_UnitTest
     public class Triangle_tests
     {
         /// <summary>
-        /// Тест создания треугольника с неверными сторонами
+        /// Тест создания треугольника с неверными сторонами 
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
